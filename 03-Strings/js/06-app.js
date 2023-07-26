@@ -9,3 +9,6 @@ console.log(`${producto} ¡ ${texto} !`);
 //split
 const actividad = 'Estoy aprendiendo';
 console.log(actividad.split(' '));
+
+const hobbies = 'Leer, caminar, escuchar musica, aprender';
+console.log(hobbies.split(','));
