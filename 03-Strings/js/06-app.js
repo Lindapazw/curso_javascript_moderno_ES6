@@ -6,3 +6,6 @@ console.log(texto);
 
 console.log(`${producto} ¡ ${texto} !`);
 
+//split
+const actividad = 'Estoy aprendiendo';
+console.log(actividad.split(' '));
