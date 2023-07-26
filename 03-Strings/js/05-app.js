@@ -12,3 +12,10 @@ console.log(producto.slice(8));
 
 // substring
 console.log(producto.substring(8));
+
+// Mostramos la primera letra del nombre
+const usuario = "Linda";
+console.log(usuario.substring(0,1));
+
+// chart At
+console.log(usuario.charAt(0));
