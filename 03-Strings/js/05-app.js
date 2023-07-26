@@ -1,5 +1,11 @@
 const producto = "Monitor 20 pulgadas";
 
+
+//replace
 console.log(producto);
 console.log(producto.replace('pulgadas', '"'));
 console.log(producto.replace('Monitor', 'Monitor curvo'));
+
+//slice para cortar 
+console.log(producto.slice(0,10));
+console.log(producto.slice(8));
