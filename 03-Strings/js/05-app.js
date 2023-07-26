@@ -9,3 +9,6 @@ console.log(producto.replace('Monitor', 'Monitor curvo'));
 //slice para cortar 
 console.log(producto.slice(0,10));
 console.log(producto.slice(8));
+
+// substring
+console.log(producto.substring(8));
