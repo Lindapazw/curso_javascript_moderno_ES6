@@ -8,3 +8,7 @@ console.log(producto.length);
 console.log(producto.indexOf('Monitor'));
 console.log(producto.indexOf('20'));
 console.log(producto.indexOf('pulgadas'));
+
+// includes
+console.log(producto.includes('tablet'));
+console.log(producto.includes('20'));
