@@ -6,7 +6,6 @@ const producto = {
     vivo: true,
 }
 
-
 // agregar nuevas propiedades al objeto
 producto.imagen = "linda.jpg";
 delete producto.nombre;
