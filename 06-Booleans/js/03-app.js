@@ -6,3 +6,6 @@ if (authentication) {
 } else {
     console.log("No puedes ver Netflix");
 }
+
+// ternario
+console.log(authentication? "esta autenticado" : "no esta autenticado");
