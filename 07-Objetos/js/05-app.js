@@ -5,8 +5,13 @@ const producto = {
     disponible: true,
     vivo: true,
     informacion : {
-        peso: "1kl",
-        medida: "2 metro"
+        medidas : {
+            peso: "1kl",
+            medida: "2 metro"
+        },
+        fabricacion : {
+            pais: "china",
+        }
     }
 }
 
