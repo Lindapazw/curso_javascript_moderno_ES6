@@ -9,6 +9,7 @@ for (let i = 0; i < carrito.length; i++) {
     console.log(carrito[i]);
 }
 
-for (let i = 0; i < carrito.length; i++) {
-    console.log(`Nombre: ${carrito[i].nombre} - Precio: ${carrito[i].precio} `);
-}
+// producto es el singular
+carrito.forEach( function (producto) {
+    console.log(`Nombre: ${producto.nombre} - Precio: ${producto.precio} `);
+});
