@@ -1,8 +1,17 @@
-function sumar(a, b) {
-    return a + b;
+// ejemplo más avanzado
+let total = 0;
+
+function agregarCarrito(precio) {
+    return total += precio;
 }
 
-const resultado = sumar(1,2);
-console.log(resultado);
+function calcularImpuesto(total) {
+    return total * 1.15;
+}
 
-s
+total = agregarCarrito(300);
+total = agregarCarrito(100);
+
+const totalPagar = calcularImpuesto(total);
+console.log(`El total es: ${totalPagar}`);
+console.log(total);
