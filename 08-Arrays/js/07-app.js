@@ -11,21 +11,29 @@ const producto2 = {
     precio: 800,
 }
 
-carrito.push(producto);
-carrito.push(producto2);
-
 const producto3 = {
     nombre: 'Play 4',
     precio: 700,
 }
 
-carrito.unshift(producto3);
+const producto4 = {
+    nombre: 'Monitor 50 pulgadas',
+    precio: 400,
+}
+
+const producto5 = {
+    nombre: 'Play 2',
+    precio: 800,
+}
+
+carrito.push(producto);
+carrito.push(producto2);
+carrito.push(producto3);
+carrito.push(producto4);
+carrito.push(producto5);
+
 console.table(carrito);
 
-// pop - elimina el ultimo
-carrito.pop();
-console.table(carrito);
 
-// pop - elimina el primero
-carrito.shift();
+carrito.splice(2,1);
 console.table(carrito);
