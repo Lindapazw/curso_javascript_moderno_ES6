@@ -1,3 +1,6 @@
 const autenticado = true;
+const pueedePagar = true;
 
-console.log(autenticado? 'si esta': 'no esta');
+console.log(autenticado && pueedePagar? 'si puede': 'no puede');
+console.log(autenticado || pueedePagar? 'si puede': 'no puede');
+
