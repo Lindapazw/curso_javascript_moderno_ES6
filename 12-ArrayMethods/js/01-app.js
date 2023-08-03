@@ -20,3 +20,9 @@ meses.forEach((mes) => {
 const resultado = meses.includes('Enero');
 console.log(resultado);
 
+// En un arreglo de objetos se utiliza .some
+const existe = carrito.some((producto) => {
+    return producto.nombre === 'Celular';
+});
+
+console.log(existe);
