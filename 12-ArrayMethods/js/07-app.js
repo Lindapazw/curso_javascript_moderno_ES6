@@ -6,5 +6,5 @@ const resultado = meses.concat(meses2);
 console.log(resultado);
 
 // spread
-const resultado2 = [...meses, ...meses2];
+const resultado2 = [...meses, ...meses2, 'Otro mes'];
 console.log(resultado2);
