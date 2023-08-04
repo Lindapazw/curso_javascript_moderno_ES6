@@ -9,3 +9,6 @@ const carrito = [
 
 const resultado = carrito.every( producto => producto.precio < 1000);
 console.log(resultado);
+
+const resultado2 = carrito.some( producto => producto.precio < 1000);
+console.log(resultado2);
