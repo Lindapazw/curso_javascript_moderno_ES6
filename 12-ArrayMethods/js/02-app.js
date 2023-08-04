@@ -20,4 +20,5 @@ meses.forEach((mes, i) => {
 const indice = meses.findIndex( mes => mes === 'Abril' );
 console.log(indice);
 
-
+const indice2 = carrito.findIndex( carrito => carrito.nombre === 'Tablet' );
+console.log(`Encontrado en el indice ${indice2}`);
