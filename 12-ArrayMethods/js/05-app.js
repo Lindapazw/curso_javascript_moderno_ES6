@@ -18,3 +18,5 @@ carrito.forEach( (producto, i) => {
 console.log(resultado);
 
 // .find
+const resultado2 = carrito.find( producto => producto.nombre === 'Tablet');
+console.log(resultado2);
