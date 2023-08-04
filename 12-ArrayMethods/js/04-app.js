@@ -14,3 +14,8 @@ console.log(resultado);
 let resultado2;
 resultado2 = carrito.filter((producto) => producto.precio < 600 )
 console.log(resultado2);
+
+let resultado3;
+resultado3 = carrito.filter((producto) => producto.nombre !== 'Teclado' )
+console.log(resultado3);
+
