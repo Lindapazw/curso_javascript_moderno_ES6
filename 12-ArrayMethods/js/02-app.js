@@ -14,3 +14,10 @@ meses.forEach((mes, i) => {
         console.log(`Encontrado en el indice ${i}`);
     }
 });
+
+
+// encontrar el indice de Abril
+const indice = meses.findIndex( mes => mes === 'Abril' );
+console.log(indice);
+
+
