@@ -10,5 +10,7 @@ const carrito = [
 ]
 
 meses.forEach((mes, i) => {
-    console.log(mes, i);
+    if(mes === 'Abril') {
+        console.log(`Encontrado en el indice ${i}`);
+    }
 });
