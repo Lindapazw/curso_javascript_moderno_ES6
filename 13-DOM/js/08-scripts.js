@@ -12,7 +12,12 @@ const card = document.querySelector('.card');
 
 // traversing the DOM
 
-console.log(card.parentNode);
-console.log(card.parentElement);
+// console.log(card.parentNode);
+// console.log(card.parentElement);
 
+console.log(card);
+console.log(card.nextElementSibling);
+
+const ultimoCard = document.querySelector('.card:nth-child(4)');
+console.log(ultimoCard);
 
