@@ -9,3 +9,8 @@ nav.addEventListener('click', () => {
 nav.addEventListener('mouseenter', () => {
     console.log('entrando en navegacion');
 });
+
+// registrar un evento
+nav.addEventListener('mouseout', () => {
+    console.log('saliendo en navegacion');
+});
