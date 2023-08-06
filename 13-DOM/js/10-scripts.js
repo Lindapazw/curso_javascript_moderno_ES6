@@ -7,3 +7,7 @@ enlace.textContent = 'Nuevo enlaceeeee';
 enlace.href = '/nuevo-enlace';
 
 console.log(enlace);
+
+// seleccionar la navegacion
+const navegacion = document.querySelector('.navegacion');
+navegacion.appendChild(enlace);
