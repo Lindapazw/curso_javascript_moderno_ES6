@@ -11,3 +11,7 @@ console.log(enlace);
 // seleccionar la navegacion
 const navegacion = document.querySelector('.navegacion');
 navegacion.appendChild(enlace);
+
+// seleccionar la navegacion entre vender y ayuda
+console.log(navegacion.children);
+navegacion.insertBefore(enlace, navegacion.children[1]);
