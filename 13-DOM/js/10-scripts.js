@@ -62,6 +62,13 @@ card.appendChild(info);
 
 console.log(card);
 
+// insertar en html
+const contenedor = document.querySelector('.hacer .contenedor-cards');
+contenedor.appendChild(card);
+
+// o
+// contenedor.insertBefore(card);
+
 
 
 
