@@ -12,3 +12,4 @@ console.log(producto.indexOf('pulgadas'));
 // includes
 console.log(producto.includes('tablet'));
 console.log(producto.includes('20'));
+console.log(producto.includes('pulgadas'));
