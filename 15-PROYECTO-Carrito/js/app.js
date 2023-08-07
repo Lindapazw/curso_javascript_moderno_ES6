@@ -32,6 +32,7 @@ function leerDatosCurso(curso){
         titulo: curso.querySelector('h4').textContent,
         precio: curso.querySelector('span').textContent,
         id:     curso.querySelector('a').getAttribute('data-id'),
+        cantidad: '1',
     }
     
     // agregar elementos a carrito
@@ -49,9 +50,11 @@ function carritoHTML(){
     articulosCarrito.forEach( curso => {
         const row = document.createElement('tr');
         row.innerHTML = `
-        <td>
-            ${curso.titulo}
-        </td>`;
+        <td><img src="${curso.imagen}" width="100"></td>
+        <td>${curso.titulo}</td>
+        <td>${curso.precio}</td>
+        <td>${curso.cantidad}</td>
+        `;
 
         // agrega en el html del carrito el tbody
         contenedorCarrito.appendChild(row);
