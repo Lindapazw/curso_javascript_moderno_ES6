@@ -1,10 +1,8 @@
 var producto = "Monitor de 24 pulgadas";
-console.log(producto);
-
 producto = "Monitor";
-console.log(producto);
+producto = 20;
 
-producto = "10";
-console.log(producto);
+var precio;
+precio = 100; 
 
 
