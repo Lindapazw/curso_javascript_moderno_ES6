@@ -19,6 +19,18 @@ function cargarEventListener(){
 function agregarCursos(e){
     e.preventDefault();
     if(e.target.classList.contains('agregar-carrito')) {
-        console.log('agregando al carrito');
+        const cursoSeleccionado = e.target.parentElement.parentElement;
+        leerDatosCurso(cursoSeleccionado);
     }
 }
+
+// extraer info del curso
+function leerDatosCurso(curso){
+    const infoCurso = {
+        imagen: curso.querySelector('img').src,
+        titulo: curso.querySelector('h4').textContent,
+        precio: curso.querySelector('span').textContent,
+        id:     curso.querySelector('a').getAttribute('data-id'),
+    }
+    console.log(infoCurso);
+};
