@@ -6,15 +6,16 @@ const carrito = document.querySelector('#carrito');
 const contenedorCarrito = document.querySelector('#lista-carrito tbody');
 const vaciarCarrito = document.querySelector('#vaciar-carrito');
 const listaCursos = document.querySelector('#lista-cursos');
+let articulosCarrito = [];
+
+/*---------------
+    @FUNCIONES
+----------------*/
 
 cargarEventListener();
 function cargarEventListener(){
     listaCursos.addEventListener('click', agregarCursos);
 };
-
-/*---------------
-    @FUNCIONES
-----------------*/
 
 function agregarCursos(e){
     e.preventDefault();
