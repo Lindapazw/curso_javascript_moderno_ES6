@@ -33,5 +33,8 @@ function leerDatosCurso(curso){
         precio: curso.querySelector('span').textContent,
         id:     curso.querySelector('a').getAttribute('data-id'),
     }
-    console.log(infoCurso);
+    
+    // agregar elementos a carrito
+    articulosCarrito = [...articulosCarrito, infoCurso];
+    console.log(articulosCarrito);
 };
