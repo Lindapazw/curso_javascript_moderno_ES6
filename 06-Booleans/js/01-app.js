@@ -8,3 +8,4 @@ console.log(boolean2);
 console.log(typeof boolean2);
 
 console.log(boolean2 == boolean3);
+console.log(boolean2 === boolean3);
