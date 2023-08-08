@@ -10,3 +10,4 @@ const producto = {
 }
 
 console.log(producto);
+
