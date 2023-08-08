@@ -1,6 +1,5 @@
 const numero1 = 30;
 const numero2 = 10;
-
 let resultado;
 
 // suma
