@@ -1,9 +1,7 @@
 const producto = 'Monitor 20 pulgadas';
 
 //repeat
-const texto = 'En promocion '.repeat(3);
-console.log(texto);
-
+const texto = 'En promocion '.repeat(3.2);
 console.log(`${producto} ¡ ${texto} !`);
 
 //split
