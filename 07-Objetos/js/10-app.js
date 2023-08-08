@@ -9,9 +9,6 @@ const medidas = {
     medidas: "1 metros",
 }
 
-console.log(producto);
-console.log(medidas);
-
 const resultado = Object.assign(producto, medidas);
 
 // spread operator o rest operator
