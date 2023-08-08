@@ -6,9 +6,12 @@ const producto = {
     disponible: true,
 }
 
+
+producto.vivo = true;
+producto.imagen = "imagen.jpg";
+
 Object.freeze(producto);
 
-// producto.imagen = "imagen.jpg"
 console.log(producto);
 
 console.log(Object.isFrozen(producto));
