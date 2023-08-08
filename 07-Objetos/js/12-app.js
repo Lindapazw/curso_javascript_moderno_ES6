@@ -10,3 +10,4 @@ console.log(producto2);
 
 const producto3 = new Producto('Monitor 30 ', 400);
 console.log(producto3);
+
