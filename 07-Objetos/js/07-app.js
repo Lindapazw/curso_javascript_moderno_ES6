@@ -5,7 +5,6 @@ const producto = {
     disponible: true,
 }
 
-const nombreProducto = "Monitor";
-producto.nombre = "Monitor";
+producto.nombre = "MonitorRRRRRRRRRRR";
 
 console.log(producto);
