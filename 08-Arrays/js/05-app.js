@@ -1,6 +1,5 @@
 const carrito = [];
 
-// definir un producto 
 const producto = {
     nombre: 'Monitor 24 pulgadas',
     precio: 400,
