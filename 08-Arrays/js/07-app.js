@@ -21,19 +21,17 @@ const producto4 = {
     precio: 400,
 }
 
-const producto5 = {
-    nombre: 'Play 2',
-    precio: 800,
-}
-
 carrito.push(producto);
 carrito.push(producto2);
 carrito.push(producto3);
 carrito.push(producto4);
-carrito.push(producto5);
+
 
 console.table(carrito);
 
+// carrito.pop();
+carrito.shift();
+console.table(carrito);
 
-carrito.splice(2,1);
+carrito.splice(1,1);
 console.table(carrito);
