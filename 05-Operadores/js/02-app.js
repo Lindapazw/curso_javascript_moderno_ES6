@@ -13,4 +13,6 @@ console.log(numero1 === parseInt(numero2));
 const password1 = "admin";
 const password2 = "admin";
 
-console.warn(password1 != password2);
+console.log(password1 != password2);
+console.log(password1 !== password2);
+
