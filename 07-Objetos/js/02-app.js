@@ -9,3 +9,6 @@ console.log(producto.nombre);
 console.log(producto.precio);
 
 console.log(producto["disponible"]);
+
+// agregar nuevas propiedades al objeto
+producto.imagen = "linda.jpg";
