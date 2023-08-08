@@ -17,3 +17,4 @@ const producto = {
 
 console.log(producto);
 console.log(producto.informacion); 
+console.log(producto.informacion.medidas.peso); 

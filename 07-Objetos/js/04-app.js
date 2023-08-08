@@ -17,3 +17,4 @@ console.log(precio);
 // forma nueva
 const {vivo,disponible} = producto	
 console.log(vivo, disponible);
+
