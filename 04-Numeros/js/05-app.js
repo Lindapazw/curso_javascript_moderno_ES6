@@ -11,6 +11,6 @@ console.log(puntaje2);
 // se resta uno
 
 let puntaje3 = 5;
-puntaje += 2;
+puntaje3 += 2;
 console.log(puntaje3);
 // se asigna sobre el valor existente
