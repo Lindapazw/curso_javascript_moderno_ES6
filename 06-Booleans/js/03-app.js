@@ -9,3 +9,5 @@ if (authentication) {
 
 // ternario
 console.log(authentication? "esta autenticado" : "no esta autenticado");
+
+
