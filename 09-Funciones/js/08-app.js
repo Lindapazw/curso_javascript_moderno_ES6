@@ -1,3 +1,11 @@
+const sumar = (a, b) => {
+    return a + b;
+}
+
+const resultado = sumar(10, 10);
+console.log(resultado);
+
+
 // ejemplo más avanzado
 let total = 0;
 
