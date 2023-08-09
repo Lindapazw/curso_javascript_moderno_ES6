@@ -5,14 +5,14 @@ const carrito = [
     {nombre: 'Play5 ', precio: 300}
 ];
 
-const nuevoArreglo = carrito.forEach( function (producto) {
-    return `Nombre: ${producto.nombre} - Precio: ${producto.precio} `;
+const nuevoArrglo = carrito.forEach(({nombre, precio}) => {
+    console.log(`El nombre es: ${nombre} y el precio : ${precio}`);
+});
+
+console.log('----------------');
+
+const nuevoArreglo2 = carrito.map(({nombre, precio}) => {
+    console.log(`El nombre es: ${nombre} y el precio : ${precio}`);
 });
 
 
-const nuevoArreglo2 = carrito.map( function (producto) {
-    return `Nombre: ${producto.nombre} - Precio: ${producto.precio} `;
-});
-
-console.log(nuevoArreglo);
-console.log(nuevoArreglo2);
