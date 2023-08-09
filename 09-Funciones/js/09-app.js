@@ -1,7 +1,5 @@
 const reproductor = {
-    reproducir: function(id) {
-        console.log(`Reproducioendo cancion con el id: ${id}`);
-    },
+    reproducir: id => console.log(`Reproducir la cancion con el id: ${id}`),
     pausar: function() {
         console.log(`Pausando...`);
     },
@@ -18,6 +16,6 @@ const reproductor = {
         console.log(`Reproducioendo la playlist con el nombre: ${nombre}`);
     }
 };
-
+reproductor.reproducir(1);
 reproductor.crearPlayList('Rock 90');
 reproductor.reproducirPlayList('Rock 90');
