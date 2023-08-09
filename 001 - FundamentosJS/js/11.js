@@ -1,9 +1,13 @@
 const tecnologias = ['Java', 'JavaScript', 'CSS', 'CSS2', 'CSS3'];
 console.log(tecnologias);
 
-// eliminar
-const nuevoArray = tecnologias.filter((tech) => {
-    return tech !== 'Java';
-})
+// modificar
+const nuevoArray = tecnologias.map((tech) => {
+    if (tech === 'JavaScript') {
+        return 'Hola';
+    } else {
+        return tech;
+    }
+});
 
-console.log(nuevoArray);
+console.log(nuevoArray); 
