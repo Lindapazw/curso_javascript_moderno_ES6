@@ -7,9 +7,24 @@ const carrito = [
 
 for (let i = 0; i < carrito.length; i++) {
     console.log(carrito[i]);
-}
+};
+
+console.log('----------------')
 
 // producto es el singular
 carrito.forEach( function (producto) {
     console.log(`Nombre: ${producto.nombre} - Precio: ${producto.precio} `);
 });
+
+console.log('----------------')
+
+carrito.forEach( producto => {
+    console.log(`El nombre: ${producto.nombre} - Precio: ${producto.precio}`);
+});
+
+console.log('----------------')
+
+carrito.forEach(({ nombre, precio }) => {
+    console.log(`Nombre: ${nombre} - Precio: ${precio}`);
+});
+
