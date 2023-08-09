@@ -14,3 +14,4 @@ function autenticacion(usuario) {
     console.log('Autenticando ...');
     console.log(`El usuario es: ${usuario}`);
 }
+
