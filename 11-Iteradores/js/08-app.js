@@ -6,3 +6,4 @@ const auto = {
 for(let propiedades in auto) {
     console.log(propiedades);
 }
+
