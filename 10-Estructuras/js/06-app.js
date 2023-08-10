@@ -10,3 +10,4 @@ if (usuario && puedoPagar) {
 } else if(!puedoPagar) {
     console.log('no puedes pagar');
 }
+

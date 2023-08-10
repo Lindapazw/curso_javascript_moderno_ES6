@@ -14,3 +14,4 @@ if ( totalApagar <= dinero ) {
 } else {
     console.log('No puedes pagar');
 }
+

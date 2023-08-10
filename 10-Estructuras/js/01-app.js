@@ -5,3 +5,4 @@ if( puntaje === 1000) {
 }else {
     console.log('No es igual');
 }
+
