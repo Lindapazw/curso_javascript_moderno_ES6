@@ -11,3 +11,8 @@ const nuevoArray = tecnologias.map((tech) => {
 });
 
 console.log(nuevoArray); 
+
+// Ejemplo con iterador
+const array = nuevoArray.map((tech) => {
+    console.log(`tech: ${tech}`);
+});
