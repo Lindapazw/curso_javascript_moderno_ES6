@@ -11,3 +11,9 @@ console.log(filtro);
 // Al menos uno
 const resultado = tecnologias.some( tech => tech !== 'Angular');
 console.log(resultado);
+
+// some 
+// Find
+// Every
+// Reduce
+// Filter
