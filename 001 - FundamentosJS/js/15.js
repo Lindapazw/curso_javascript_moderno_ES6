@@ -17,3 +17,4 @@ console.log(resultado);
 // Every
 // Reduce
 // Filter
+
