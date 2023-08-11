@@ -19,3 +19,5 @@ console.log(headingId);
 const enlaces = document.querySelectorAll('a');
 console.log(enlaces);
 
+const noExiste = document.querySelector('noExiste');
+console.log(noExiste);
